@@ -1,0 +1,97 @@
+.custom-file-upload-1 {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.img-file-upload{
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    margin-top: 0px;
+    display: list-item;
+}
+
+.myBar {
+    background: #fff;
+    border: 1px solid #999;
+    float: right;
+    height: 0.8em;
+    margin: 3px 0px 0px 3px;
+    max-width: 300px;
+    overflow: hidden;
+    padding: 1px;
+    width: 100px;
+    vertical-align: bottom;
+
+    /*display: none;*/
+}
+
+.fileUploadContainer {
+    /*background-color: #F5F5F5;*/
+    color: #222222;
+    display: block;
+    height: 23px;
+    margin: 0 0 9px 0;
+    overflow: auto hidden;
+    /*padding: 4px 4px 4px 8px;*/
+}
+
+.fileUploadName {
+    color: #222222;/*#1155CC;*/ 
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 17px;
+    line-height: 17px;
+    max-width: 205px;
+    overflow: hidden;
+    padding: 3px 0;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+.fileUploadSize {
+    color: #777777;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 17px;
+    line-height: 17px;
+    padding: 3px 0 3px 3px;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+.fileClose {
+    color: #7D7D7D;
+    float: right;
+    font-family: helvetica, arial;
+    font-size: 18px;
+    font-weight: bold;
+    height: 0.8em;
+    line-height: 1;
+    padding-left: 20px;
+    padding-right: 3px;
+    margin: 3px 0px 0px 3px;
+}
+
+.file-input{  
+    background-image: url(Upload/dinhkemfile.png) !important;
+    background-repeat: no-repeat;
+    background-size:18px;
+   font-size:0;
+    cursor: pointer;
+    border:0 !important;
+    height:20px;
+    display:none;
+    }
+
+.file-input:hover {
+    cursor: pointer;
+}
+.fileClose:hover {
+    cursor: pointer;
+}
+input type="file"{border:0 !important;
+background-color: transparent;}
